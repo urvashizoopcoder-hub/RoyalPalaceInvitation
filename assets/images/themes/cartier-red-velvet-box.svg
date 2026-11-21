@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f0005"/><stop offset="50%" stop-color="#4a000d"/><stop offset="100%" stop-color="#730014"/></linearGradient>
+            <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#a80724"/><stop offset="50%" stop-color="#ff4d6d"/><stop offset="100%" stop-color="#800319"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Open Cartier Velvet Box 3D Base -->
+        <rect x="240" y="80" width="320" height="300" rx="16" fill="#54000f" stroke="#e6c280" stroke-width="3"/>
+        <rect x="255" y="95" width="290" height="270" rx="10" fill="#38000a"/>
+        <!-- Floating Red Rose Petals -->
+        <g fill="#e11d48" opacity="0.85">
+            <ellipse cx="180" cy="120" rx="18" ry="24" transform="rotate(25 180 120)"/>
+            <ellipse cx="620" cy="140" rx="16" ry="22" transform="rotate(-35 620 140)"/>
+            <ellipse cx="200" cy="320" rx="22" ry="16" transform="rotate(45 200 320)"/>
+            <ellipse cx="600" cy="340" rx="20" ry="26" transform="rotate(-15 600 340)"/>
+            <ellipse cx="400" cy="370" rx="18" ry="22" transform="rotate(10 400 370)"/>
+        </g>
+        <!-- Satin Ribbon Bow -->
+        <path d="M400 70 C340 40 340 120 400 90 C460 120 460 40 400 70 Z" fill="url(#ribbon)"/>
+        <circle cx="400" cy="80" r="14" fill="#ffd700"/>
+        <!-- Golden Wedding Rings inside Box -->
+        <circle cx="385" cy="210" r="30" fill="none" stroke="#ffd700" stroke-width="7"/>
+        <circle cx="415" cy="210" r="30" fill="none" stroke="#ffd700" stroke-width="7"/>
+        <text x="400" y="290" font-family="'Italiana', serif" font-size="28" fill="#fde68a" text-anchor="middle" letter-spacing="3">CARTIER VELVET ROYALE</text>
+    
+</svg>

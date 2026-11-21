@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4a051b"/><stop offset="100%" stop-color="#881337"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Victorian Wrought Iron Pergola Arch -->
+        <path d="M180 450 L180 200 C180 90 300 50 400 50 C500 50 620 90 620 200 L620 450" fill="none" stroke="#fbcfe8" stroke-width="4"/>
+        <path d="M220 450 L220 220 C220 120 320 90 400 90 C480 90 580 120 580 220 L580 450" fill="none" stroke="#f472b6" stroke-width="2"/>
+        <!-- Climbing Garden Roses Clusters -->
+        <g fill="#f43f5e">
+            <circle cx="200" cy="180" r="18"/><circle cx="220" cy="195" r="14"/><circle cx="185" cy="205" r="12"/>
+            <circle cx="600" cy="180" r="18"/><circle cx="580" cy="195" r="14"/><circle cx="615" cy="205" r="12"/>
+            <circle cx="390" cy="70" r="20"/><circle cx="415" cy="75" r="16"/><circle cx="400" cy="95" r="14"/>
+        </g>
+        <text x="400" y="270" font-family="'Playfair Display', serif" font-size="28" fill="#fdf2f8" text-anchor="middle" letter-spacing="3">ENGLISH ROSE PERGOLA</text>
+        <text x="400" y="305" font-family="'Cormorant Garamond', serif" font-size="16" fill="#fbcfe8" text-anchor="middle" font-style="italic">Blooms of Everlasting Devotion</text>
+    
+</svg>

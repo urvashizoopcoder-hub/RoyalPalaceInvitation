@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#051321"/><stop offset="60%" stop-color="#0c2d4a"/><stop offset="100%" stop-color="#14426b"/></linearGradient>
+            <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#082038"/><stop offset="100%" stop-color="#041220"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Full Moon -->
+        <circle cx="680" cy="90" r="45" fill="#fef3c7" opacity="0.9"/>
+        <circle cx="680" cy="90" r="70" fill="#fde68a" opacity="0.15"/>
+        <!-- Distant Aravalli Hills -->
+        <path d="M0 260 Q 200 210 400 240 T 800 250 L800 300 L0 300 Z" fill="#061829"/>
+        <!-- White Marble Lake Palace Silhouette -->
+        <rect x="220" y="210" width="360" height="70" fill="#f8fafc" opacity="0.95"/>
+        <path d="M260 210 C260 170 300 170 300 210 Z M380 210 C380 150 420 150 420 210 Z M500 210 C500 170 540 170 540 210 Z" fill="#f8fafc"/>
+        <line x1="400" y1="150" x2="400" y2="135" stroke="#e5c07b" stroke-width="3"/>
+        <!-- Lake Water Surface & Ripple Reflections -->
+        <rect x="0" y="280" width="800" height="170" fill="url(#water)"/>
+        <ellipse cx="400" cy="320" rx="200" ry="8" fill="#e5c07b" opacity="0.3"/>
+        <ellipse cx="400" cy="350" rx="140" ry="6" fill="#e5c07b" opacity="0.2"/>
+        <!-- Royal Shikara Boat -->
+        <path d="M120 370 Q 180 390 260 370 Q 240 355 140 355 Z" fill="#b45309"/>
+        <path d="M160 355 L160 325 L220 325 L220 355 Z" fill="#e5c07b"/>
+        <text x="400" y="415" font-family="'Playfair Display', serif" font-size="24" fill="#e5c07b" text-anchor="middle" letter-spacing="3">UDAIPUR LAKE PALACE</text>
+    
+</svg>

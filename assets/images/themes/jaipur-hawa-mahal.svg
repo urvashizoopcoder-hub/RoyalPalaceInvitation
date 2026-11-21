@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7c2d12"/><stop offset="50%" stop-color="#c2410c"/><stop offset="100%" stop-color="#f97316"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Sandstone Hawa Mahal Arched Windows Pyramid -->
+        <g fill="#993d31" stroke="#fde047" stroke-width="1.5">
+            <!-- Tier 1 -->
+            <rect x="150" y="280" width="500" height="170" fill="#803328"/>
+            <!-- Tier 2 -->
+            <rect x="220" y="190" width="360" height="90" fill="#8a372d"/>
+            <!-- Tier 3 -->
+            <rect x="290" y="120" width="220" height="70" fill="#993d31"/>
+            <!-- Tier 4 Top Dome -->
+            <path d="M360 120 C360 70 440 70 440 120 Z" fill="#ffd700"/>
+        </g>
+        <!-- Jharokha Windows -->
+        <g fill="#fde68a" opacity="0.85">
+            <rect x="380" y="140" width="40" height="40" rx="10"/>
+            <rect x="280" y="210" width="40" height="45" rx="10"/>
+            <rect x="380" y="210" width="40" height="45" rx="10"/>
+            <rect x="480" y="210" width="40" height="45" rx="10"/>
+            <rect x="200" y="300" width="45" height="50" rx="10"/>
+            <rect x="300" y="300" width="45" height="50" rx="10"/>
+            <rect x="400" y="300" width="45" height="50" rx="10"/>
+            <rect x="500" y="300" width="45" height="50" rx="10"/>
+            <rect x="600" y="300" width="45" height="50" rx="10"/>
+        </g>
+        <text x="400" y="420" font-family="'Marcellus', serif" font-size="26" fill="#fef08a" text-anchor="middle" letter-spacing="4">JAIPUR GULABI PINK CITY</text>
+    
+</svg>

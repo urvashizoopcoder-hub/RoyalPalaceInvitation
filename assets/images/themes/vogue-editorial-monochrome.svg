@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#050505"/><stop offset="100%" stop-color="#171717"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- High Fashion Magazine Grid Lines -->
+        <rect x="80" y="40" width="640" height="370" fill="none" stroke="#3f3f46" stroke-width="1"/>
+        <text x="400" y="150" font-family="'Playfair Display', serif" font-size="64" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="12">V O G U E</text>
+        <text x="400" y="210" font-family="'Inter', sans-serif" font-size="14" fill="#a1a1aa" text-anchor="middle" letter-spacing="6">THE WEDDING ISSUE • SPECIAL EDITION</text>
+        <line x1="250" y1="240" x2="550" y2="240" stroke="#ffffff" stroke-width="1"/>
+        <!-- Minimalist Couple Silhouette -->
+        <circle cx="370" cy="290" r="24" fill="#52525b"/>
+        <circle cx="430" cy="300" r="20" fill="#71717a"/>
+        <path d="M330 380 C330 320 410 320 410 380 Z" fill="#27272a"/>
+        <path d="M400 380 C400 330 460 330 460 380 Z" fill="#3f3f46"/>
+    
+</svg>

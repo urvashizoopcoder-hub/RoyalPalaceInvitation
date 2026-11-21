@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Royal Rajputana & Cartier Luxury Wedding Invitations — 60 Exclusive 3D Templates</title>
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <!-- Premium Luxury Wedding Fonts: Cinzel, Cormorant, Great Vibes, Alex Brush, Pinyon Script, Allura, Parisienne, Italiana, Playfair, Rozha One -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&family=Italiana&family=Marcellus&family=Montserrat:wght@300;400;500;600;700&family=Parisienne&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Prata&family=Rozha+One&family=Syne:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css?v=royal_v4">
+  <link rel="stylesheet" href="css/templates.css?v=royal_v4">
+</head>
+<body>
+
+  <!-- =========================================================================
+       APP HEADER
+       ========================================================================= -->
+  <header class="app-header">
+    <div class="brand-wrap">
+      <div class="brand-crest">
+        <i class="ph ph-crown-simple"></i>
+      </div>
+      <div>
+        <h1 class="brand-title">Rajputana & Cartier Royale</h1>
+        <p class="brand-tagline">60 Bespoke 3D Wedding Invitations & Creator Studio</p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <a href="invite.html" target="_blank" rel="noopener noreferrer" class="header-btn btn-gold btn-launch-invitation" id="headerLaunchInviteBtn" title="Create & Open Invitation on Dedicated Page">
+        <i class="ph ph-crown"></i> <span>Create Royal Invitation</span>
+      </a>
+
+      <button class="header-btn btn-gold" id="openTemplatesModalBtn">
+        <i class="ph ph-squares-four"></i> 60 Templates
+      </button>
+
+      <button class="header-btn" id="replayUnboxingBtn" title="Replay 3D Card Opening">
+        <i class="ph ph-arrow-counter-clockwise"></i> Replay 3D Box
+      </button>
+
+      <button class="header-btn" id="toggleFullscreenBtn" title="Toggle Fullscreen View">
+        <i class="ph ph-arrows-out"></i> Fullscreen View
+      </button>
+
+      <button class="header-btn" id="shareInviteBtn">
+        <i class="ph ph-share-network"></i> Share / WhatsApp
+      </button>
+
+      <button class="header-btn" id="downloadHtmlBtn" title="Download Standalone HTML Invitation">
+        <i class="ph ph-download-simple"></i> Export Invite
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN WORKSPACE
+       ========================================================================= -->
+  <main class="workspace-container">
+    
+    <!-- LEFT: CREATOR CUSTOMIZATION STUDIO -->
+    <aside class="studio-panel">
+      <!-- Active Template Banner -->
+      <div class="active-template-banner">
+        <div class="atb-info">
+          <h4 id="atbTitle">Cartier Red Velvet Luxury Box</h4>
+          <p id="atbCategory">Cartier Velvet & Ultra-Luxury • velvet-ribbon-box</p>
+        </div>
+        <button class="header-btn btn-gold" id="openTemplatesModalBtnStudio" style="padding: 6px 12px; font-size: 0.75rem;">
+          Change (60)
+        </button>
+      </div>
+
+      <!-- Prominent Create & Launch Invitation CTA -->
+      <div style="margin-bottom: 18px;">
+        <a href="invite.html" target="_blank" rel="noopener noreferrer" id="studioLaunchInviteBtn" class="btn-royal-create-invite" style="text-decoration: none;">
+          <i class="ph ph-crown" style="font-size: 1.25rem;"></i>
+          <span>Create My Invitation (Separate Page)</span>
+          <i class="ph ph-arrow-square-out" style="font-size: 1.1rem;"></i>
+        </a>
+      </div>
+
+      <!-- Studio Navigation Tabs -->
+      <div class="studio-tabs">
+        <button class="studio-tab-btn active" data-tab="tabCouple">
+          <i class="ph ph-users"></i> Couple & Photos
+        </button>
+        <button class="studio-tab-btn" data-tab="tabDateVenue">
+          <i class="ph ph-calendar-check"></i> Date & Venue
+        </button>
+        <button class="studio-tab-btn" data-tab="tabEvents">
+          <i class="ph ph-sparkle"></i> Itinerary
+        </button>
+        <button class="studio-tab-btn" data-tab="tabMusic">
+          <i class="ph ph-music-notes"></i> Music
+        </button>
+        <button class="studio-tab-btn" data-tab="tabScratch">
+          <i class="ph ph-hand-tap"></i> Scratch & 3D
+        </button>
+      </div>
+
+      <!-- TAB 1: COUPLE & PHOTOS -->
+      <div class="tab-pane active" id="tabCouple">
+        <!-- Bride & Groom Uploads -->
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-camera"></i> Bride & Groom Photographs
+          </div>
+          <p style="font-size: 0.76rem; color: var(--studio-muted); margin-bottom: 12px;">
+            Upload high-resolution portraits. In the invitation, they appear after scratching the luxury foil surface!
+          </p>
+          <div class="grid-2">
+            <!-- Groom Upload Card -->
+            <div class="photo-upload-card" id="groomUploadCard">
+              <input type="file" id="groomFileInput" class="file-input-hidden" accept="image/*">
+              <img id="groomPhotoThumb" class="upload-preview-thumb" src="" alt="Groom Photo">
+              <div class="upload-instruction"><i class="ph ph-upload-simple"></i> Groom Photo</div>
+              <div class="upload-sub">Click to change picture</div>
+            </div>
+
+            <!-- Bride Upload Card -->
+            <div class="photo-upload-card" id="brideUploadCard">
+              <input type="file" id="brideFileInput" class="file-input-hidden" accept="image/*">
+              <img id="bridePhotoThumb" class="upload-preview-thumb" src="" alt="Bride Photo">
+              <div class="upload-instruction"><i class="ph ph-upload-simple"></i> Bride Photo</div>
+              <div class="upload-sub">Click to change picture</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Couple Details -->
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-user"></i> Royal Couple Names
+          </div>
+          <div class="grid-2">
+            <div class="form-group">
+              <label class="form-label">Groom's Full Name</label>
+              <input type="text" id="inputGroomName" class="form-input" placeholder="Groom Name">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Bride's Full Name</label>
+              <input type="text" id="inputBrideName" class="form-input" placeholder="Bride Name">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Groom's Parents</label>
+            <input type="text" id="inputGroomParents" class="form-input" placeholder="Smt. & Shri...">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Bride's Parents</label>
+            <input type="text" id="inputBrideParents" class="form-input" placeholder="Smt. & Shri...">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Welcoming Invitation Text</label>
+            <textarea id="inputWelcoming" class="form-textarea" rows="2"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Wedding Hashtag</label>
+            <input type="text" id="inputHashtag" class="form-input" placeholder="#Hashtag">
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: DATE & VENUE -->
+      <div class="tab-pane" id="tabDateVenue">
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-calendar"></i> Auspicious Date & Muhurat
+          </div>
+          <div class="grid-2">
+            <div class="form-group">
+              <label class="form-label">Wedding Date</label>
+              <input type="date" id="inputWeddingDate" class="form-input">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Ceremony Time</label>
+              <input type="text" id="inputWeddingTime" class="form-input" placeholder="07:30 PM">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Auspicious Muhurat Description</label>
+            <input type="text" id="inputMuhurat" class="form-input" placeholder="Godhuli Bela Muhurat...">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Traditional Sanskrit Shloka / Blessing</label>
+            <textarea id="inputShloka" class="form-textarea" rows="3"></textarea>
+          </div>
+        </div>
+
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-map-pin"></i> Palace Venue Details
+          </div>
+          <div class="form-group">
+            <label class="form-label">Palace / Hotel / Mandap Name</label>
+            <input type="text" id="inputVenueName" class="form-input" placeholder="Venue Name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Full Address</label>
+            <textarea id="inputVenueAddress" class="form-textarea" rows="2"></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Google Maps Link</label>
+            <input type="text" id="inputMapUrl" class="form-input" placeholder="https://maps.google.com/...">
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: EVENTS & ITINERARY -->
+      <div class="tab-pane" id="tabEvents">
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-clock"></i> Wedding Celebrations Itinerary
+          </div>
+          <p style="font-size: 0.78rem; color: var(--studio-muted); margin-bottom: 14px;">
+            The itinerary automatically renders along with an interactive timeline.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label">Haldi Ceremony</label>
+            <input type="text" class="form-input" value="Ganesh Sthapana & Haldi - Dec 16, 10:30 AM">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Mehendi & Sangeet</label>
+            <input type="text" class="form-input" value="Mehendi & Sangeet Gala - Dec 17, 06:30 PM">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Baraat & Pheras</label>
+            <input type="text" class="form-input" value="Baraat & Royal Pheras - Dec 18, 07:00 PM">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Reception Dawat</label>
+            <input type="text" class="form-input" value="The Royal Dawat - Dec 19, 08:00 PM">
+          </div>
+        </div>
+
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-envelope"></i> RSVP Contact Details
+          </div>
+          <div class="grid-2">
+            <div class="form-group">
+              <label class="form-label">RSVP Phone / WhatsApp</label>
+              <input type="text" id="inputRsvpPhone" class="form-input" placeholder="+91 ...">
+            </div>
+            <div class="form-group">
+              <label class="form-label">RSVP Email</label>
+              <input type="text" id="inputRsvpEmail" class="form-input" placeholder="email@...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 4: MUSIC & SOUND -->
+      <div class="tab-pane" id="tabMusic">
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-speaker-high"></i> Background Wedding Melodies
+          </div>
+          <div class="form-group">
+            <label class="form-label">Curated Melody Preset</label>
+            <select id="audioPresetSelect" class="form-select">
+              <option value="romantic-strings">Cartier Romantic Strings & Cello</option>
+              <option value="shehnai-royal">Royal Shehnai & Tanpura Drone (Raag Yaman)</option>
+              <option value="sitar-darbar">Darbar Sitar & Tabla Tarang</option>
+              <option value="flute-divine">Divine Krishna Bansuri Flute</option>
+              <option value="piano-elegance">Romantic Piano Nocturne</option>
+            </select>
+          </div>
+
+          <div class="form-group" style="margin-top: 18px;">
+            <label class="form-label">Or Upload Your Own MP3 Audio Track</label>
+            <input type="file" id="customAudioFileInput" class="form-input" accept="audio/*">
+            <small style="color: var(--studio-muted); font-size: 0.72rem; display: block; margin-top: 4px;">
+              Supports any custom MP3 (e.g. Din Shagna Da, Kudmayi, Kesariya, etc.)
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 5: SCRATCH & 3D ANIMATION -->
+      <div class="tab-pane" id="tabScratch">
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-sparkle"></i> Scratch Surface Controls
+          </div>
+          <div class="form-group">
+            <label class="form-label">Scratch Coin / Finger Brush Size</label>
+            <input type="range" id="scratchBrushSlider" min="18" max="48" value="28" style="width: 100%;">
+          </div>
+
+          <button class="header-btn btn-gold" id="revealAllScratchBtn" style="width: 100%; justify-content: center; margin-top: 10px;">
+            <i class="ph ph-magic-wand"></i> Instant Reveal All Scratch Surfaces
+          </button>
+        </div>
+
+        <div class="section-group">
+          <div class="section-group-title">
+            <i class="ph ph-cube"></i> 3D Card Opening Experience
+          </div>
+          <p style="font-size: 0.8rem; color: var(--studio-muted); line-height: 1.4;">
+            Every template features an authentic 3D unboxing animation inspired by Cartier luxury jewelry boxes, Royal Haveli doors, and heritage gates.
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- RIGHT: LIVE INTERACTIVE PREVIEW STAGE -->
+    <section class="preview-stage" id="previewStage">
+      <!-- Toolbar -->
+      <div class="preview-toolbar">
+        <button class="toolbar-btn" id="toolbarAutoScrollBtn" title="Auto-scroll invitation">
+          <i class="ph ph-play"></i> Auto Scroll
+        </button>
+
+        <div class="toolbar-divider"></div>
+
+        <button class="toolbar-btn" onclick="window.app.boxEngine.resetBox(); window.app.initScratchSurfaces();" title="Close and re-unbox">
+          <i class="ph ph-lock"></i> Re-lock Box
+        </button>
+
+        <div class="toolbar-divider"></div>
+
+        <button class="toolbar-btn" onclick="window.app.dateScratch && window.app.dateScratch.reset(); window.app.photoScratch && window.app.photoScratch.reset();" title="Reset Scratch surfaces">
+          <i class="ph ph-eraser"></i> Re-scratch
+        </button>
+      </div>
+
+      <!-- Mobile Device Frame Container -->
+      <div class="mobile-device-frame" id="mobileDeviceFrame">
+        <!-- Phone Notch -->
+        <div class="device-notch"></div>
+
+        <!-- Scroll Progress Indicator -->
+        <div class="scroll-progress-line" id="autoScrollProgressBar"></div>
+
+        <!-- Floating Music Equalizer in Phone Viewport -->
+        <div class="floating-music-pill" id="floatingMusicBtn" title="Toggle Wedding Music">
+          <div class="equalizer-bars">
+            <div class="eq-bar"></div>
+            <div class="eq-bar"></div>
+            <div class="eq-bar"></div>
+          </div>
+          <span>Music</span>
+        </div>
+
+        <!-- Floating Auto-Scroll Control in Phone Viewport -->
+        <div class="phone-floating-autoscroll" id="phoneAutoScrollControls">
+          <button class="pas-btn" id="pasPlayBtn">
+            <i class="ph ph-play"></i> Auto Scroll
+          </button>
+          <button class="pas-btn pas-speed-btn" id="pasSpeedBtn">
+            NORMAL
+          </button>
+        </div>
+
+        <!-- Phone Screen Viewport (Scrollable container) -->
+        <div class="phone-screen-viewport" id="phoneScreenViewport">
+          
+          <!-- 3D Unboxing Box Layer (Cartier Red Velvet / Haveli Gate) -->
+          <div id="boxMountPoint"></div>
+
+          <!-- Atmospheric Falling Particles Stage (Rose Petals, Marigolds, Stardust) -->
+          <div class="particle-stage" id="particleStage"></div>
+
+          <!-- Main Revealed Invitation Card -->
+          <div class="invitation-card-main card-concealed" id="invitationCardMain">
+            
+            <!-- ANIMATED FLORAL MANDAP CANOPY WITH GANESHA & FLOATING CONTROLS (MyInvitations Reference) -->
+            <div class="floral-mandap-canopy-wrapper" id="mandapCanopyWrapper">
+              <!-- Glassmorphic Floating Top Actions (Speaker & Close as in reference image) -->
+              <div class="mandap-floating-controls">
+                <button class="mandap-circle-btn sound-toggle-btn" id="heroSoundToggleBtn" title="Play / Pause Wedding Music">
+                  <i class="ph ph-speaker-high" id="heroSpeakerIcon"></i>
+                </button>
+                <button class="mandap-circle-btn close-action-btn" id="heroCloseActionBtn" title="Reset View / Share">
+                  <i class="ph ph-x"></i>
+                </button>
+              </div>
+
+              <!-- Animated Mandap Canopy Floral Arch & Sky Art -->
+              <div class="mandap-canopy-art">
+                <img id="invThemeHeroImg" class="theme-hero-img mandap-hero-backdrop" src="assets/images/themes/sacred-mandap-bloom.svg" alt="Sacred Mandap Canopy">
+                
+                <!-- Realistic Dangling & Swinging Lotus Bud Tassels Layer -->
+                <div class="lotus-tassels-layer">
+                  <div class="lotus-tassel-pendulum tassel-1">
+                    <span class="tassel-thread"></span>
+                    <span class="tassel-gold-bead"></span>
+                    <span class="tassel-lotus-bud">🪷</span>
+                  </div>
+                  <div class="lotus-tassel-pendulum tassel-center">
+                    <span class="tassel-thread"></span>
+                    <span class="tassel-gold-bead"></span>
+                    <span class="tassel-lotus-bud main-bud">🪷</span>
+                  </div>
+                  <div class="lotus-tassel-pendulum tassel-2">
+                    <span class="tassel-thread"></span>
+                    <span class="tassel-gold-bead"></span>
+                    <span class="tassel-lotus-bud">🪷</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sacred Divine Lord Ganesha Calligraphy with Glowing Aura -->
+              <div class="ganesha-divine-centerpiece">
+                <div class="ganesha-aura-glow"></div>
+                <svg class="ganesha-calligraphy-svg" viewBox="0 0 130 150" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="ganeshaRedGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#DC2626"/>
+                      <stop offset="60%" stop-color="#991B1B"/>
+                      <stop offset="100%" stop-color="#7F1D1D"/>
+                    </linearGradient>
+                    <linearGradient id="ganeshaGoldGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#FDE047"/>
+                      <stop offset="50%" stop-color="#D4AF37"/>
+                      <stop offset="100%" stop-color="#996515"/>
+                    </linearGradient>
+                  </defs>
+                  <!-- Crown / Pagdi -->
+                  <path d="M65 15 C58 15 52 20 52 26 C52 30 56 34 65 34 C74 34 78 30 78 26 C78 20 72 15 65 15 Z" fill="none" stroke="url(#ganeshaRedGrad)" stroke-width="4.5" stroke-linecap="round"/>
+                  <path d="M58 22 C62 18 68 18 72 22" stroke="url(#ganeshaGoldGrad)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                  <path d="M65 15 L65 5" stroke="url(#ganeshaGoldGrad)" stroke-width="4" stroke-linecap="round"/>
+                  <circle cx="65" cy="3" r="3.5" fill="url(#ganeshaGoldGrad)"/>
+
+                  <!-- Tilak / Trishul -->
+                  <path d="M65 35 L65 52" stroke="url(#ganeshaRedGrad)" stroke-width="4" stroke-linecap="round"/>
+                  <circle cx="65" cy="42" r="3" fill="url(#ganeshaGoldGrad)"/>
+
+                  <!-- Face, Large Ear & Curled Trunk (Continuous Om Flow) -->
+                  <path d="M52 32 C38 34 26 46 26 62 C26 78 38 90 54 90 C62 90 70 86 75 80" fill="none" stroke="url(#ganeshaRedGrad)" stroke-width="5.5" stroke-linecap="round"/>
+                  <path d="M65 36 C76 36 88 44 92 56 C94 62 92 68 86 72" fill="none" stroke="url(#ganeshaRedGrad)" stroke-width="5" stroke-linecap="round"/>
+                  <circle cx="24" cy="82" r="6" fill="url(#ganeshaGoldGrad)"/>
+                  <path d="M65 54 C65 68 62 85 58 100 C54 116 45 132 30 138 C22 141 14 135 15 125 C16 116 26 112 36 114 C44 116 48 122 45 130" fill="none" stroke="url(#ganeshaRedGrad)" stroke-width="5" stroke-linecap="round"/>
+                  <path d="M42 98 C48 112 60 128 78 128 C96 128 108 114 108 96 C108 80 94 70 82 74 C75 76 72 82 76 88 C80 94 88 92 90 86" fill="none" stroke="url(#ganeshaRedGrad)" stroke-width="5" stroke-linecap="round"/>
+                  <path d="M88 64 C96 58 105 58 112 65 C118 71 116 80 110 82" fill="none" stroke="url(#ganeshaGoldGrad)" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M110 50 C114 47 120 48 124 52" fill="none" stroke="url(#ganeshaGoldGrad)" stroke-width="3" stroke-linecap="round"/>
+                  <circle cx="124" cy="43" r="2.5" fill="url(#ganeshaGoldGrad)"/>
+                </svg>
+                <div class="ganesha-shubh-mantra">|| श्री गणेशाय नमः ||</div>
+              </div>
+            </div>
+
+            <!-- Hero Header with Floral Corners -->
+            <div class="card-hero has-floral-corners">
+              <!-- Corner Flowers -->
+              <div class="floral-corner corner-tl"></div>
+              <div class="floral-corner corner-tr"></div>
+
+              <div class="card-ornament-header">
+                <svg viewBox="0 0 100 24" width="100%" height="24" fill="currentColor">
+                  <path d="M50 0 C40 10, 20 12, 0 12 C20 12, 40 14, 50 24 C60 14, 80 12, 100 12 C80 12, 60 10, 50 0 Z"/>
+                </svg>
+              </div>
+
+              <div class="invitation-pretitle">The Royal Wedding Invitation</div>
+              <h2 class="invitation-main-title">A CELEBRATION OF ETERNAL LOVE</h2>
+              <div class="invitation-shloka" id="invShloka"></div>
+
+              <div class="family-welcoming" id="invWelcoming"></div>
+
+              <!-- Royal Couple Names with ANIMATED REVEAL & SHIMMER -->
+              <div class="couple-highlight-wrap" id="coupleNamesSection">
+                <div class="couple-animated-wrapper">
+                  <div class="person-name animated-name" id="invGroomName">Ranveer Singh</div>
+                  <div class="name-connector-badge">
+                    <span class="connector-glow"></span>
+                    <span class="name-connector">&</span>
+                  </div>
+                  <div class="person-name animated-name" id="invBrideName">Deepika Padukone</div>
+                </div>
+              </div>
+
+              <div class="inv-hashtag-pill" id="invHashtag">
+                #DeepVeerVivaah
+              </div>
+
+              <div class="floral-corner corner-bl"></div>
+              <div class="floral-corner corner-br"></div>
+            </div>
+
+            <!-- ==============================================================
+                 FEATURE 1: SCRATCH-TO-REVEAL COUPLE PHOTOGRAPHS (WITH FLORAL CORNERS)
+                 ============================================================== -->
+            <div class="card-section-box has-floral-corners">
+              <div class="floral-corner corner-tl"></div>
+              <div class="floral-corner corner-tr"></div>
+
+              <div class="section-badge">
+                <i class="ph ph-camera"></i> Royal Couple Portraits
+              </div>
+
+              <!-- Scratch Container for Photos -->
+              <div class="scratch-card-wrapper" id="photoScratchMount">
+                <div class="couple-photos-reveal-content">
+                  <!-- Groom Portrait -->
+                  <div class="photo-portrait-frame">
+                    <div class="portrait-frame-arch">
+                      <img id="invGroomImg" class="portrait-img" src="" alt="Groom">
+                    </div>
+                    <div class="portrait-label" id="invGroomCaption">Groom</div>
+                    <div class="portrait-role">The Royal Groom</div>
+                  </div>
+
+                  <!-- Bride Portrait -->
+                  <div class="photo-portrait-frame">
+                    <div class="portrait-frame-arch">
+                      <img id="invBrideImg" class="portrait-img" src="" alt="Bride">
+                    </div>
+                    <div class="portrait-label" id="invBrideCaption">Bride</div>
+                    <div class="portrait-role">The Royal Bride</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="floral-corner corner-bl"></div>
+              <div class="floral-corner corner-br"></div>
+            </div>
+
+            <!-- ==============================================================
+                 FEATURE 2: SCRATCH-TO-REVEAL WEDDING DATE, 3D ENVELOPE & SLIDING CALENDAR
+                 ============================================================== -->
+            <div class="card-section-box has-floral-corners date-envelope-section">
+              <div class="floral-corner corner-tl"></div>
+              <div class="floral-corner corner-tr"></div>
+
+              <!-- Decorative Top Hanging Tabs & Polka Dots Garland -->
+              <div class="date-hanging-clip-left"></div>
+              <div class="date-hanging-clip-right"></div>
+              <div class="date-garland-dots">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+
+              <!-- Header Text (Matching reference image) -->
+              <div class="date-intro-pill">
+                <span class="date-intro-script">A little surprise</span>
+                <h3 class="date-intro-title">Save The Date</h3>
+                <span class="date-intro-hint" id="envelopeActionHint">Tap the envelope to open it.</span>
+              </div>
+
+              <!-- Interactive 3D Pocket Envelope Stage (Tucked Inside Envelope Pocket) -->
+              <div class="envelope-interactive-stage" id="envelopeInteractiveStage">
+                <div class="luxury-pocket-envelope" id="luxuryPocketEnvelope" title="Tap or swipe to open envelope">
+                  <div class="env-back-plate"></div>
+
+                  <!-- Monthly Calendar Card (Slides UPWARDS out of envelope pocket) -->
+                  <div class="wedding-calendar-card" id="weddingCalendarCard">
+                    <div class="cal-header">
+                      <span class="cal-header-day" id="calDayNum">18</span>
+                      <span class="cal-header-month-year" id="calMonthYear">DECEMBER 2026</span>
+                    </div>
+                    <div class="cal-weekdays">
+                      <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+                    </div>
+                    <div class="cal-days-grid" id="calDaysGrid">
+                      <!-- Dynamically rendered monthly days grid with 3D Heart badge on wedding day -->
+                    </div>
+                  </div>
+
+                  <!-- Envelope Front Pocket (Lower triangle fold covering bottom of card) -->
+                  <div class="env-pocket-front">
+                    <svg class="env-pocket-svg" viewBox="0 0 340 180" preserveAspectRatio="none">
+                      <defs>
+                        <linearGradient id="pocketFrontGrad" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stop-color="rgba(255, 255, 255, 0.25)"/>
+                          <stop offset="100%" stop-color="rgba(0, 0, 0, 0.15)"/>
+                        </linearGradient>
+                      </defs>
+                      <polygon points="0,0 170,110 0,180" fill="url(#pocketFrontGrad)" opacity="0.3"/>
+                      <polygon points="340,0 170,110 340,180" fill="url(#pocketFrontGrad)" opacity="0.2"/>
+                      <polygon points="0,180 170,95 340,180" fill="currentColor" opacity="0.35"/>
+                      <polyline points="0,180 170,95 340,180" stroke="var(--tpl-accent, #d4af37)" stroke-width="1.8" fill="none"/>
+                    </svg>
+                    <div class="envelope-big-day-text">The Big Day</div>
+                  </div>
+
+                  <!-- Envelope Top Flap (folds open upwards with 3D rotation) -->
+                  <div class="env-flap-top" id="envFlapTop">
+                    <svg class="env-flap-svg" viewBox="0 0 340 120" preserveAspectRatio="none">
+                      <polygon points="0,0 340,0 170,120" fill="currentColor"/>
+                      <polyline points="0,0 170,120 340,0" stroke="var(--tpl-accent, #d4af37)" stroke-width="2" fill="none"/>
+                    </svg>
+                  </div>
+
+                  <!-- Ribbon Bow & Gold Wax Monogram Seal -->
+                  <div class="env-seal-ribbon-wrap" id="envSealRibbonWrap">
+                    <div class="env-ribbon-bow">
+                      <div class="bow-wings">
+                        <div class="bow-wing wing-left"></div>
+                        <div class="bow-wing wing-right"></div>
+                      </div>
+                      <div class="ribbon-tails">
+                        <div class="ribbon-tail tail-left"></div>
+                        <div class="ribbon-tail tail-right"></div>
+                      </div>
+                    </div>
+                    <div class="envelope-gold-seal" id="envelopeSealBtn" title="Royal Wax Monogram Seal">
+                      <span class="seal-monogram" id="envelopeMonogram">R & D</span>
+                      <span class="seal-sparkle">✦</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Romantic Cursive Quote below envelope -->
+              <div class="calendar-romantic-quote">
+                The start of a beautiful journey...
+              </div>
+
+              <!-- Auspicious Muhurat Pill -->
+              <div class="muhurat-badge" style="margin: 0 auto 18px; width: fit-content;">
+                <i class="ph ph-clock"></i> <span id="invMuhuratTime">Auspicious Godhuli Bela (07:30 PM)</span>
+              </div>
+
+                  <!-- 4 Glossy 3D Countdown Hearts Grid (2x2 matching reference video) -->
+                  <div class="countdown-hearts-grid">
+                    <div class="countdown-heart-item">
+                      <div class="heart-3d-wrapper">
+                        <svg class="heart-3d-svg" viewBox="0 0 130 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <defs>
+                            <radialGradient id="heartGradDays" cx="38%" cy="32%" r="68%">
+                              <stop offset="0%" stop-color="var(--tpl-heart-from, #FF758C)"/>
+                              <stop offset="55%" stop-color="var(--tpl-heart-mid, #E11D48)"/>
+                              <stop offset="100%" stop-color="var(--tpl-heart-to, #881337)"/>
+                            </radialGradient>
+                            <linearGradient id="heartSheenDays" x1="0.2" y1="0" x2="0.8" y2="1">
+                              <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+                              <stop offset="45%" stop-color="#ffffff" stop-opacity="0.15"/>
+                              <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                            </linearGradient>
+                            <filter id="heartShadowDays" x="-15%" y="-10%" width="130%" height="130%">
+                              <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="var(--tpl-heart-shadow, rgba(136, 19, 55, 0.45))"/>
+                            </filter>
+                          </defs>
+                          <path d="M65 106 C65 106 14 70 14 36 C14 17 28 6 46 6 C57 6 65 14 65 14 C65 14 73 6 84 6 C102 6 116 17 116 36 C116 70 65 106 65 106 Z" 
+                                fill="url(#heartGradDays)" stroke="var(--tpl-accent, #E6C280)" stroke-width="2.5" filter="url(#heartShadowDays)"/>
+                          <path d="M65 101 C65 101 19 67 19 36 C19 20 30 11 46 11 C54 11 61 16 65 20 C69 16 76 11 84 11 C100 11 111 20 111 36 C111 67 65 101 65 101 Z" 
+                                fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.2"/>
+                          <path d="M25 32 C25 20 34 13 46 13 C53 13 58 17 61 21 C59 19 51 16 45 17 C33 19 27 26 25 32 Z" fill="url(#heartSheenDays)"/>
+                          <path d="M105 32 C105 20 96 13 84 13 C77 13 72 17 69 21 C71 19 79 16 85 17 C97 19 103 26 105 32 Z" fill="url(#heartSheenDays)"/>
+                        </svg>
+                        <div class="heart-text-content">
+                          <span class="unit-number" id="cntDays">84</span>
+                          <span class="unit-label">DAYS</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="countdown-heart-item">
+                      <div class="heart-3d-wrapper">
+                        <svg class="heart-3d-svg" viewBox="0 0 130 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <defs>
+                            <radialGradient id="heartGradHours" cx="38%" cy="32%" r="68%">
+                              <stop offset="0%" stop-color="var(--tpl-heart-from, #FF758C)"/>
+                              <stop offset="55%" stop-color="var(--tpl-heart-mid, #E11D48)"/>
+                              <stop offset="100%" stop-color="var(--tpl-heart-to, #881337)"/>
+                            </radialGradient>
+                            <linearGradient id="heartSheenHours" x1="0.2" y1="0" x2="0.8" y2="1">
+                              <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+                              <stop offset="45%" stop-color="#ffffff" stop-opacity="0.15"/>
+                              <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                            </linearGradient>
+                            <filter id="heartShadowHours" x="-15%" y="-10%" width="130%" height="130%">
+                              <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="var(--tpl-heart-shadow, rgba(136, 19, 55, 0.45))"/>
+                            </filter>
+                          </defs>
+                          <path d="M65 106 C65 106 14 70 14 36 C14 17 28 6 46 6 C57 6 65 14 65 14 C65 14 73 6 84 6 C102 6 116 17 116 36 C116 70 65 106 65 106 Z" 
+                                fill="url(#heartGradHours)" stroke="var(--tpl-accent, #E6C280)" stroke-width="2.5" filter="url(#heartShadowHours)"/>
+                          <path d="M65 101 C65 101 19 67 19 36 C19 20 30 11 46 11 C54 11 61 16 65 20 C69 16 76 11 84 11 C100 11 111 20 111 36 C111 67 65 101 65 101 Z" 
+                                fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.2"/>
+                          <path d="M25 32 C25 20 34 13 46 13 C53 13 58 17 61 21 C59 19 51 16 45 17 C33 19 27 26 25 32 Z" fill="url(#heartSheenHours)"/>
+                          <path d="M105 32 C105 20 96 13 84 13 C77 13 72 17 69 21 C71 19 79 16 85 17 C97 19 103 26 105 32 Z" fill="url(#heartSheenHours)"/>
+                        </svg>
+                        <div class="heart-text-content">
+                          <span class="unit-number" id="cntHours">21</span>
+                          <span class="unit-label">HOURS</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="countdown-heart-item">
+                      <div class="heart-3d-wrapper">
+                        <svg class="heart-3d-svg" viewBox="0 0 130 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <defs>
+                            <radialGradient id="heartGradMins" cx="38%" cy="32%" r="68%">
+                              <stop offset="0%" stop-color="var(--tpl-heart-from, #FF758C)"/>
+                              <stop offset="55%" stop-color="var(--tpl-heart-mid, #E11D48)"/>
+                              <stop offset="100%" stop-color="var(--tpl-heart-to, #881337)"/>
+                            </radialGradient>
+                            <linearGradient id="heartSheenMins" x1="0.2" y1="0" x2="0.8" y2="1">
+                              <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+                              <stop offset="45%" stop-color="#ffffff" stop-opacity="0.15"/>
+                              <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                            </linearGradient>
+                            <filter id="heartShadowMins" x="-15%" y="-10%" width="130%" height="130%">
+                              <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="var(--tpl-heart-shadow, rgba(136, 19, 55, 0.45))"/>
+                            </filter>
+                          </defs>
+                          <path d="M65 106 C65 106 14 70 14 36 C14 17 28 6 46 6 C57 6 65 14 65 14 C65 14 73 6 84 6 C102 6 116 17 116 36 C116 70 65 106 65 106 Z" 
+                                fill="url(#heartGradMins)" stroke="var(--tpl-accent, #E6C280)" stroke-width="2.5" filter="url(#heartShadowMins)"/>
+                          <path d="M65 101 C65 101 19 67 19 36 C19 20 30 11 46 11 C54 11 61 16 65 20 C69 16 76 11 84 11 C100 11 111 20 111 36 C111 67 65 101 65 101 Z" 
+                                fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.2"/>
+                          <path d="M25 32 C25 20 34 13 46 13 C53 13 58 17 61 21 C59 19 51 16 45 17 C33 19 27 26 25 32 Z" fill="url(#heartSheenMins)"/>
+                          <path d="M105 32 C105 20 96 13 84 13 C77 13 72 17 69 21 C71 19 79 16 85 17 C97 19 103 26 105 32 Z" fill="url(#heartSheenMins)"/>
+                        </svg>
+                        <div class="heart-text-content">
+                          <span class="unit-number" id="cntMins">16</span>
+                          <span class="unit-label">MINUTES</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="countdown-heart-item">
+                      <div class="heart-3d-wrapper">
+                        <svg class="heart-3d-svg" viewBox="0 0 130 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <defs>
+                            <radialGradient id="heartGradSecs" cx="38%" cy="32%" r="68%">
+                              <stop offset="0%" stop-color="var(--tpl-heart-from, #FF758C)"/>
+                              <stop offset="55%" stop-color="var(--tpl-heart-mid, #E11D48)"/>
+                              <stop offset="100%" stop-color="var(--tpl-heart-to, #881337)"/>
+                            </radialGradient>
+                            <linearGradient id="heartSheenSecs" x1="0.2" y1="0" x2="0.8" y2="1">
+                              <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+                              <stop offset="45%" stop-color="#ffffff" stop-opacity="0.15"/>
+                              <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+                            </linearGradient>
+                            <filter id="heartShadowSecs" x="-15%" y="-10%" width="130%" height="130%">
+                              <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="var(--tpl-heart-shadow, rgba(136, 19, 55, 0.45))"/>
+                            </filter>
+                          </defs>
+                          <path d="M65 106 C65 106 14 70 14 36 C14 17 28 6 46 6 C57 6 65 14 65 14 C65 14 73 6 84 6 C102 6 116 17 116 36 C116 70 65 106 65 106 Z" 
+                                fill="url(#heartGradSecs)" stroke="var(--tpl-accent, #E6C280)" stroke-width="2.5" filter="url(#heartShadowSecs)"/>
+                          <path d="M65 101 C65 101 19 67 19 36 C19 20 30 11 46 11 C54 11 61 16 65 20 C69 16 76 11 84 11 C100 11 111 20 111 36 C111 67 65 101 65 101 Z" 
+                                fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.2"/>
+                          <path d="M25 32 C25 20 34 13 46 13 C53 13 58 17 61 21 C59 19 51 16 45 17 C33 19 27 26 25 32 Z" fill="url(#heartSheenSecs)"/>
+                          <path d="M105 32 C105 20 96 13 84 13 C77 13 72 17 69 21 C71 19 79 16 85 17 C97 19 103 26 105 32 Z" fill="url(#heartSheenSecs)"/>
+                        </svg>
+                        <div class="heart-text-content">
+                          <span class="unit-number" id="cntSecs">35</span>
+                          <span class="unit-label">SECONDS</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="floral-corner corner-bl"></div>
+              <div class="floral-corner corner-br"></div>
+            </div>
+
+            <!-- ==============================================================
+                 FEATURE 3: WEDDING FUNCTIONS & ARCH CELEBRATIONS
+                 ============================================================== -->
+            <div class="card-section-box has-floral-corners wedding-functions-section">
+              <div class="floral-corner corner-tl"></div>
+              <div class="floral-corner corner-tr"></div>
+
+              <div class="wedding-functions-header">
+                <span class="functions-sub-script">Sacred Celebrations</span>
+                <h2 class="functions-main-title">Wedding Functions</h2>
+                <div class="functions-header-divider">
+                  <span class="divider-diamond"></span>
+                </div>
+              </div>
+
+              <!-- List of Sequential Arch Ceremony Cards -->
+              <div class="ceremonies-sequence-container" id="invTimelineList"></div>
+
+              <div class="floral-corner corner-bl"></div>
+              <div class="floral-corner corner-br"></div>
+            </div>
+
+            <!-- ==============================================================
+                 FEATURE 4: VENUE & GOOGLE MAPS
+                 ============================================================== -->
+            <div class="card-section-box has-floral-corners">
+              <div class="floral-corner corner-tl"></div>
+              <div class="floral-corner corner-tr"></div>
+
+              <div class="section-badge">
+                <i class="ph ph-map-pin"></i> Palace Destination
+              </div>
+              <div class="venue-details-wrap">
+                <h3 class="venue-palace-name" id="invVenueName">The Oberoi Udaivilas</h3>
+                <p class="venue-address" id="invVenueAddress">Udaipur, Rajasthan, India</p>
+                <a href="#" target="_blank" class="map-btn" id="invMapLink">
+                  <i class="ph ph-navigation-arrow"></i> Get Directions on Google Maps
+                </a>
+              </div>
+
+              <div class="floral-corner corner-bl"></div>
+              <div class="floral-corner corner-br"></div>
+            </div>
+
+            <!-- ==============================================================
+                 FEATURE 5: INTERACTIVE RSVP & GUEST WISHES
+                 ============================================================== -->
+            <div class="card-section-box has-floral-corners">
+              <div class="floral-corner corner-tl"></div>
+              <div class="floral-corner corner-tr"></div>
+
+              <div class="section-badge">
+                <i class="ph ph-envelope-open"></i> Confirm Your Presence
+              </div>
+              <form class="rsvp-form" onsubmit="event.preventDefault(); window.app.showToast('💌 Thank you! Your RSVP has been graciously received.');">
+                <input type="text" class="rsvp-input" placeholder="Your Full Name" required>
+                <input type="tel" class="rsvp-input" placeholder="Your Contact / WhatsApp Number" required>
+                <select class="rsvp-input">
+                  <option value="attending">Accepts with Joy (Will Attend)</option>
+                  <option value="regrets">Regretfully Declines (Sending Blessings)</option>
+                </select>
+                <select class="rsvp-input">
+                  <option value="1">1 Guest Attending</option>
+                  <option value="2">2 Guests Attending</option>
+                  <option value="3">3 Guests Attending</option>
+                  <option value="4+">Family (4+ Guests)</option>
+                </select>
+                <textarea class="rsvp-input" rows="2" placeholder="Warm Blessings & Congratulatory Message for the Couple"></textarea>
+                <button type="submit" class="rsvp-submit-btn">Send Royal RSVP</button>
+              </form>
+
+              <div class="floral-corner corner-bl"></div>
+              <div class="floral-corner corner-br"></div>
+            </div>
+
+            <!-- INVITATION END ACTIONS BAR (Matching User Reference Screenshot) -->
+            <div class="invitation-end-actions-wrapper">
+              <div class="invitation-end-capsule-bar">
+                <button type="button" class="end-action-pill-btn btn-edit-invitation" id="studioEndEditInviteBtn" title="Customize in Studio">
+                  <svg class="pill-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
+                  </svg>
+                  <span>Edit Invitation</span>
+                </button>
+                <button type="button" class="end-action-pill-btn btn-share-invitation" id="studioEndShareInviteBtn" title="Share with Family & Friends">
+                  <span class="share-icon-graphic">📤</span>
+                  <span>Share Invitation</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       60 BESPOKE TEMPLATES BROWSER MODAL
+       ========================================================================= -->
+  <div class="modal-overlay" id="templatesModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-header-title">
+          <i class="ph ph-sparkle" style="color: var(--studio-accent);"></i>
+          <span>Choose from 60 Luxury 3D Wedding Templates</span>
+        </div>
+        <button class="modal-close-btn" id="closeTemplatesModalBtn">&times;</button>
+      </div>
+
+      <!-- Filters & Search -->
+      <div class="modal-filters-bar">
+        <input type="text" id="templateSearchInput" class="form-input" style="max-width: 240px; padding: 6px 12px; font-size: 0.8rem;" placeholder="Search 60 templates...">
+        <div id="templateModalFilters" style="display: flex; gap: 8px;"></div>
+      </div>
+
+      <!-- Template Cards Grid -->
+      <div class="template-grid-scroll" id="templateModalGrid"></div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       SHARE / WHATSAPP MODAL
+       ========================================================================= -->
+  <div class="modal-overlay" id="shareModal">
+    <div class="modal-dialog" style="max-width: 500px;">
+      <div class="modal-header">
+        <div class="modal-header-title">
+          <i class="ph ph-share-network"></i>
+          <span>Share Your Royal Invitation</span>
+        </div>
+        <button class="modal-close-btn" id="closeShareModalBtn">&times;</button>
+      </div>
+      <div style="padding: 24px;">
+        <p style="font-size: 0.85rem; color: var(--studio-muted); line-height: 1.5; margin-bottom: 16px;">
+          Share this invitation directly with your guests via WhatsApp or copy the formatted invitation text.
+        </p>
+
+        <div class="share-action-list">
+          <a href="#" target="_blank" class="share-btn btn-whatsapp" id="shareWhatsAppBtn">
+            <i class="ph ph-whatsapp-logo" style="font-size: 20px;"></i>
+            <span>Send on WhatsApp</span>
+          </a>
+
+          <button class="share-btn" id="copyShareTextBtn">
+            <i class="ph ph-copy" style="font-size: 20px;"></i>
+            <span>Copy Invitation Text & Link</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script Modules -->
+  <script src="js/templates-data.js?v=royal_v4"></script>
+  <script src="js/3d-box-engine.js?v=royal_v4"></script>
+  <script src="js/scratch-engine.js?v=royal_v4"></script>
+  <script src="js/auto-scroll.js?v=royal_v4"></script>
+  <script src="js/audio-player.js?v=royal_v4"></script>
+  <script src="js/app.js?v=royal_v4"></script>
+</body>
+</html>

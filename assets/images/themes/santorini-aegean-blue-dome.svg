@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#1d4ed8"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Aegean Sea Waters -->
+        <rect x="0" y="300" width="800" height="150" fill="#1e3a8a"/>
+        <!-- Whitewashed Cliffside Villa -->
+        <polygon points="120,450 120,240 280,240 280,450" fill="#ffffff"/>
+        <polygon points="260,450 260,180 480,180 480,450" fill="#f8fafc"/>
+        <polygon points="460,450 460,260 680,260 680,450" fill="#ffffff"/>
+        <!-- Iconic Blue Domes -->
+        <path d="M300 180 C300 100 440 100 440 180 Z" fill="#2563eb" stroke="#ffffff" stroke-width="3"/>
+        <path d="M500 260 C500 200 620 200 620 260 Z" fill="#1d4ed8" stroke="#ffffff" stroke-width="2"/>
+        <!-- Bougainvillea Hot Pink Floral Bush -->
+        <g fill="#ec4899">
+            <circle cx="270" cy="230" r="18"/><circle cx="290" cy="245" r="14"/><circle cx="260" cy="255" r="16"/>
+            <circle cx="470" cy="250" r="20"/><circle cx="490" cy="270" r="16"/>
+        </g>
+        <text x="400" y="390" font-family="'Cinzel', serif" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="4">SANTORINI AEGEAN BLISS</text>
+    
+</svg>

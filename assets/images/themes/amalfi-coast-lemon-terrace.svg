@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+    <defs>
+        <linearGradient id="g_amalfi-coast-lemon-terrace" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0a0a0e"/>
+            <stop offset="50%" stop-color="#CA8A04"/>
+            <stop offset="100%" stop-color="#0a0a0e"/>
+        </linearGradient>
+    </defs>
+    <rect width="800" height="450" fill="url(#g_amalfi-coast-lemon-terrace)"/>
+    <rect x="40" y="30" width="720" height="390" rx="14" fill="none" stroke="#0284C7" stroke-width="2" opacity="0.7"/>
+    <rect x="52" y="42" width="696" height="366" rx="10" fill="none" stroke="#0284C7" stroke-width="1" opacity="0.4"/>
+    <!-- Ornaments -->
+    <circle cx="400" cy="160" r="60" fill="none" stroke="#0284C7" stroke-width="3"/>
+    <circle cx="400" cy="160" r="40" fill="#CA8A04" stroke="#0284C7" stroke-width="1.5"/>
+    <path d="M370 160 L430 160 M400 130 L400 190" stroke="#0284C7" stroke-width="2"/>
+    <text x="400" y="275" font-family="'Cinzel', serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="3">AMALFI COAST LEMON TERRACE</text>
+    <text x="400" y="310" font-family="'Cormorant Garamond', serif" font-size="16" fill="#0284C7" text-anchor="middle" font-style="italic" letter-spacing="2">The Royal Celebration Suite</text>
+</svg>

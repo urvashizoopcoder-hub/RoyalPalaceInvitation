@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#400412"/><stop offset="100%" stop-color="#780b24"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Mughal Arch & Jaali -->
+        <path d="M200 450 L200 180 C200 100 320 60 400 60 C480 60 600 100 600 180 L600 450 Z" fill="#26020a" stroke="#d4af37" stroke-width="3"/>
+        <!-- Cypress Trees -->
+        <path d="M100 450 C90 320 120 200 120 200 C120 200 150 320 140 450 Z" fill="#064e3b" stroke="#d4af37" stroke-width="1.5"/>
+        <path d="M680 450 C670 320 700 200 700 200 C700 200 730 320 720 450 Z" fill="#064e3b" stroke="#d4af37" stroke-width="1.5"/>
+        <!-- Chandelier in Arch -->
+        <line x1="400" y1="60" x2="400" y2="130" stroke="#ffd700" stroke-width="2"/>
+        <polygon points="400,130 360,170 440,170" fill="#ffd700" opacity="0.9"/>
+        <text x="400" y="260" font-family="'Cinzel Decorative', serif" font-size="28" fill="#ffd700" text-anchor="middle" letter-spacing="3">MUGHAL DARBAR SHAHI</text>
+        <text x="400" y="295" font-family="'Cormorant Garamond', serif" font-size="16" fill="#fde68a" text-anchor="middle" font-style="italic">An Imperial Celebration of Love</text>
+    
+</svg>

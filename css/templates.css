@@ -1,0 +1,295 @@
+/* ==========================================================================
+   EXCLUSIVE STYLES, ORNAMENTS & THEMES FOR ALL 60 TEMPLATES
+   High-Contrast Background Patterns, Textures, and Bespoke Typography
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   COLLECTION 1: ROYAL RAJPUTANA & INDIAN HERITAGE (1 - 10)
+   -------------------------------------------------------------------------- */
+.tpl-heritage {
+  background-color: #2b040a;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.25), transparent 75%),
+    radial-gradient(circle at 100% 100%, rgba(138, 13, 34, 0.4), transparent 60%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'><path d='M30 0 L60 30 L30 60 L0 30 Z' stroke='%23D4AF37' stroke-width='0.75' fill='none' opacity='0.15'/><circle cx='30' cy='30' r='6' stroke='%23D4AF37' stroke-width='0.5' fill='none' opacity='0.15'/></svg>");
+  color: #2a1810;
+}
+
+.tpl-heritage .theme-artwork-hero {
+  border-bottom: 3px solid #d4af37;
+  box-shadow: 0 8px 25px rgba(88, 10, 21, 0.4);
+}
+
+.tpl-heritage .card-section-box {
+  border: 2px solid rgba(212, 175, 55, 0.55);
+  background: rgba(254, 250, 242, 0.96);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  color: #2a1810;
+}
+
+.tpl-heritage .portrait-frame-arch {
+  border-radius: 65px 65px 12px 12px;
+  border: 3px solid #d4af37;
+  box-shadow: 0 10px 25px rgba(88, 10, 21, 0.3);
+}
+
+.tpl-heritage .wedding-big-date,
+.tpl-heritage .venue-palace-name,
+.tpl-heritage .timeline-title {
+  color: #6b0c1c;
+  font-weight: 800;
+}
+
+/* --------------------------------------------------------------------------
+   COLLECTION 2: CARTIER VELVET & ULTRA-LUXURY (11 - 20)
+   -------------------------------------------------------------------------- */
+.tpl-velvet-luxury {
+  background-color: #1a0206;
+  background-image: 
+    radial-gradient(circle at 50% 20%, rgba(212, 175, 55, 0.22), transparent 70%),
+    radial-gradient(circle at 0% 100%, rgba(99, 10, 26, 0.5), transparent 50%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'><circle cx='20' cy='20' r='1' fill='%23E6C280' opacity='0.25'/><path d='M0 20 L20 0 L40 20 L20 40 Z' stroke='%23E6C280' stroke-width='0.5' fill='none' opacity='0.1'/></svg>");
+  color: #1b0d0e;
+}
+
+.tpl-velvet-luxury .theme-artwork-hero {
+  border-bottom: 3px solid #e6c280;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.tpl-velvet-luxury .card-section-box {
+  background: rgba(255, 252, 250, 0.96);
+  border: 2px solid rgba(230, 194, 128, 0.7);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 22px;
+  color: #1b0d0e;
+}
+
+.tpl-velvet-luxury .portrait-frame-arch {
+  border-radius: 75px;
+  border: 3px solid #e6c280;
+  box-shadow: 0 8px 30px rgba(102, 0, 18, 0.25);
+}
+
+.tpl-velvet-luxury .portrait-img {
+  border-radius: 70px;
+}
+
+.tpl-velvet-luxury .invitation-main-title {
+  font-family: 'Italiana', serif;
+  letter-spacing: 1.5px;
+}
+
+.tpl-velvet-luxury .wedding-big-date,
+.tpl-velvet-luxury .venue-palace-name,
+.tpl-velvet-luxury .timeline-title {
+  color: #7a0a1d;
+  font-weight: 800;
+}
+
+/* --------------------------------------------------------------------------
+   COLLECTION 3: MODERN MINIMALIST & EDITORIAL VOGUE (21 - 30)
+   -------------------------------------------------------------------------- */
+.tpl-modern-minimal {
+  background-color: #121316;
+  background-image: 
+    radial-gradient(circle at 100% 0%, rgba(212, 175, 55, 0.12), transparent 60%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path d='M0 0 L30 0 L30 30 L0 30 Z' stroke='%23ffffff' stroke-width='0.5' fill='none' opacity='0.04'/></svg>");
+  color: #111827;
+}
+
+.tpl-modern-minimal .theme-artwork-hero {
+  border-bottom: 2px solid #d4af37;
+}
+
+.tpl-modern-minimal .card-section-box {
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  color: #111827;
+}
+
+.tpl-modern-minimal .portrait-frame-arch {
+  border-radius: 10px;
+  border: 2px solid #111827;
+  padding: 4px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.tpl-modern-minimal .portrait-img {
+  border-radius: 6px;
+}
+
+.tpl-modern-minimal .invitation-main-title,
+.tpl-modern-minimal .person-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+.tpl-modern-minimal .wedding-big-date,
+.tpl-modern-minimal .venue-palace-name,
+.tpl-modern-minimal .timeline-title {
+  color: #0f172a;
+  font-weight: 800;
+}
+
+/* --------------------------------------------------------------------------
+   COLLECTION 4: ENCHANTED FLORALS & BOTANICAL GARDENS (31 - 40)
+   -------------------------------------------------------------------------- */
+.tpl-botanical {
+  background-color: #0b1d16;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(244, 114, 182, 0.22), transparent 50%),
+    radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.2), transparent 50%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'><path d='M10 20 Q30 5 50 20 Q30 35 10 20 Z' stroke='%2334D399' stroke-width='0.5' fill='none' opacity='0.12'/><circle cx='30' cy='30' r='3' fill='%23F472B6' opacity='0.15'/></svg>");
+  color: #062b1b;
+}
+
+.tpl-botanical .card-section-box {
+  background: rgba(254, 255, 253, 0.96);
+  border: 2px solid rgba(244, 114, 182, 0.5);
+  border-radius: 24px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  color: #062b1b;
+}
+
+.tpl-botanical .portrait-frame-arch {
+  border-radius: 60px 60px 20px 20px;
+  border: 3px solid #ec4899;
+  box-shadow: 0 8px 24px rgba(236, 72, 153, 0.2);
+}
+
+.tpl-botanical .wedding-big-date,
+.tpl-botanical .venue-palace-name,
+.tpl-botanical .timeline-title {
+  color: #064e3b;
+  font-weight: 800;
+}
+
+/* --------------------------------------------------------------------------
+   COLLECTION 5: CELESTIAL, MYSTICAL & DREAMSCAPE (41 - 50)
+   -------------------------------------------------------------------------- */
+.tpl-celestial {
+  background-color: #070913;
+  background-image: 
+    radial-gradient(circle at 50% 10%, rgba(253, 224, 71, 0.18), transparent 60%),
+    radial-gradient(circle at 80% 90%, rgba(56, 189, 248, 0.15), transparent 50%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><circle cx='20' cy='20' r='1.5' fill='%23FDE047' opacity='0.5'/><circle cx='60' cy='30' r='1' fill='%23FFFFFF' opacity='0.4'/><circle cx='40' cy='70' r='2' fill='%2338BDF8' opacity='0.3'/><polygon points='70,10 72,16 78,18 72,20 70,26 68,20 62,18 68,16' fill='%23FDE047' opacity='0.25'/></svg>");
+  color: #f8fafc;
+}
+
+.tpl-celestial .theme-artwork-hero {
+  border-bottom: 2px solid #fde047;
+}
+
+.tpl-celestial .card-section-box {
+  background: rgba(15, 23, 42, 0.94);
+  border: 2px solid rgba(253, 224, 71, 0.5);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
+  color: #f8fafc;
+}
+
+.tpl-celestial .portrait-frame-arch {
+  border-radius: 65px;
+  border: 3px solid #fde047;
+  box-shadow: 0 0 20px rgba(253, 224, 71, 0.3);
+}
+
+.tpl-celestial .invitation-main-title,
+.tpl-celestial .person-name,
+.tpl-celestial .wedding-big-date,
+.tpl-celestial .event-title,
+.tpl-celestial .venue-palace-name,
+.tpl-celestial .timeline-title {
+  color: #fde047;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(253, 224, 71, 0.3);
+}
+
+.tpl-celestial .invitation-shloka,
+.tpl-celestial .family-welcoming,
+.tpl-celestial .event-desc,
+.tpl-celestial .venue-address,
+.tpl-celestial .wedding-year,
+.tpl-celestial .timeline-desc {
+  color: #e2e8f0;
+}
+
+.tpl-celestial .date-reveal-content,
+.tpl-celestial .couple-photos-reveal-content {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #fff;
+}
+
+.tpl-celestial .countdown-unit {
+  background: #1e293b;
+  border-color: rgba(253, 224, 71, 0.45);
+}
+
+.tpl-celestial .unit-number {
+  color: #fde047;
+}
+
+.tpl-celestial .unit-label {
+  color: #94a3b8;
+}
+
+/* --------------------------------------------------------------------------
+   COLLECTION 6: REGIONAL TRADITIONS & DESTINATIONS (51 - 60)
+   -------------------------------------------------------------------------- */
+.tpl-regional-traditions {
+  background-color: #1a0f05;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(245, 158, 11, 0.22), transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(180, 83, 9, 0.25), transparent 50%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'><path d='M25 0 Q35 15 50 25 Q35 35 25 50 Q15 35 0 25 Q15 15 25 0 Z' stroke='%23F59E0B' stroke-width='0.5' fill='none' opacity='0.12'/></svg>");
+  color: #2b1808;
+}
+
+.tpl-regional-traditions .card-section-box {
+  background: rgba(255, 252, 245, 0.96);
+  border: 2px solid rgba(245, 158, 11, 0.6);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  color: #2b1808;
+}
+
+.tpl-regional-traditions .portrait-frame-arch {
+  border-radius: 50px 50px 14px 14px;
+  border: 3px solid #f59e0b;
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.2);
+}
+
+.tpl-regional-traditions .wedding-big-date,
+.tpl-regional-traditions .venue-palace-name,
+.tpl-regional-traditions .timeline-title {
+  color: #9a3412;
+  font-weight: 800;
+}
+
+/* --------------------------------------------------------------------------
+   TEMPLATE 59: MYINVITATIONS SACRED BLOOM & MANDAP
+   -------------------------------------------------------------------------- */
+[data-template="sacred-mandap-bloom"] {
+  background-color: #2b040a !important;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(254, 205, 211, 0.3), transparent 75%),
+    radial-gradient(circle at 100% 100%, rgba(190, 18, 60, 0.4), transparent 60%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'><circle cx='30' cy='30' r='18' stroke='%23D4AF37' stroke-width='0.75' fill='none' opacity='0.2'/><path d='M30 12 L30 48 M12 30 L48 30' stroke='%23E11D48' stroke-width='0.5' opacity='0.15'/></svg>") !important;
+}
+
+[data-template="sacred-mandap-bloom"] .card-section-box {
+  background: rgba(255, 253, 247, 0.96) !important;
+  border: 2px solid rgba(212, 175, 55, 0.7) !important;
+  box-shadow: 0 16px 45px rgba(136, 19, 55, 0.22) !important;
+}
+
+[data-template="sacred-mandap-bloom"] .ceremony-script-title {
+  color: #be123c !important;
+}
+
+[data-template="sacred-mandap-bloom"] .btn-directions {
+  background: linear-gradient(135deg, #be123c, #881337) !important;
+  color: #ffffff !important;
+}

@@ -1,0 +1,16 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache & logs
+__pycache__/
+*.pyc
+*.log
+
+# Temp verification scripts
+check_js*.py
+
+# System
+.vscode/
+.idea/

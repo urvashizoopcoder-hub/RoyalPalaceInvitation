@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0a192f"/><stop offset="100%" stop-color="#1e3a8a"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Mehrangarh Fort Cliff Silhouette -->
+        <path d="M80 450 L120 180 L280 160 L360 220 L650 140 L740 240 L800 240 L800 450 Z" fill="#0f172a"/>
+        <!-- Fort Ramparts and Chhatris -->
+        <path d="M220 160 C220 120 260 120 260 160 Z M600 140 C600 100 640 100 640 140 Z" fill="#38bdf8"/>
+        <!-- Blue Houses of Jodhpur -->
+        <g fill="#0284c7" stroke="#0c4a6e" stroke-width="2">
+            <rect x="60" y="320" width="80" height="80"/>
+            <rect x="150" y="300" width="90" height="100" fill="#0369a1"/>
+            <rect x="250" y="330" width="85" height="75" fill="#38bdf8"/>
+            <rect x="350" y="310" width="95" height="90" fill="#0284c7"/>
+            <rect x="460" y="320" width="85" height="90" fill="#0369a1"/>
+            <rect x="560" y="340" width="90" height="70" fill="#38bdf8"/>
+            <rect x="660" y="310" width="90" height="95" fill="#0284c7"/>
+        </g>
+        <text x="400" y="270" font-family="'Cinzel', serif" font-size="28" fill="#e0f2fe" text-anchor="middle" letter-spacing="4">JODHPUR BLUE CITY ROYALE</text>
+    
+</svg>

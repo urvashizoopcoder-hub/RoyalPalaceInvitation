@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+
+        <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#021c13"/><stop offset="100%" stop-color="#085238"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#bg)"/>
+        <!-- Emerald Jewelry Casket -->
+        <polygon points="400,60 550,140 550,330 400,410 250,330 250,140" fill="#043826" stroke="#dfb76c" stroke-width="4"/>
+        <!-- Faceted Emerald Gemstone Center -->
+        <polygon points="400,150 480,195 480,285 400,330 320,285 320,195" fill="#10b981" stroke="#a7f3d0" stroke-width="3"/>
+        <polygon points="400,180 450,210 450,270 400,300 350,270 350,210" fill="#34d399"/>
+        <text x="400" y="380" font-family="'Cinzel', serif" font-size="26" fill="#fde68a" text-anchor="middle" letter-spacing="4">EMERALD HEIRLOOM</text>
+    
+</svg>
